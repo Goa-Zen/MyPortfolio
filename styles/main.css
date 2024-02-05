@@ -1,0 +1,112 @@
+body {
+    font-family: 'Kufam',sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color:#11122b;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 200;
+    cursor:pointer;
+    padding: 10px;
+    border: 1px transparent;
+}
+a:hover {
+    border: 1px lightgrey solid;
+    border-radius: 20px;
+    color: rgb(226, 33, 33);
+    background-color: lightgrey;
+    /* watch out! to be improved */
+
+}
+
+/* commons */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    align-content: center; 
+    margin: 2vw 10vw;
+}
+.heading-fixed {
+    position: fixed; 
+    width: 80vw; 
+}
+.heading-wrapper{
+    background-image: url(../images/backgrounds/Interacc_red_poster_landscape.png);
+    padding: 10px 40px;
+    height: 200px;
+    /* parallax feature */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-wrapper > .top-heading {
+    color: #11122b;
+    width: 290px;
+}
+.heading-wrapper > .middle-heading {
+    color: darkgrey;
+    width: 300px;
+}
+.heading-wrapper > .bottom-heading {
+    margin-top: 25px;
+    width: 300px;
+}
+
+.content-wrapper {
+    
+    margin-top: 250px;   
+}
+.content-wrapper .content-text {
+    margin: 20px 0px;
+}
+
+.bottom-menu {
+    display:flex;
+    justify-content: space-around;
+    border: 1px transparent;
+    border-radius: 20px;
+    padding: 50px 0px;
+    background-color: gainsboro;
+}
+
+/* homepage */
+
+/* .heading-wrapper modifier */
+.cr-typeFlexCol {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* the person  */
+/* .heading-wrapper modifier */
+.cr-typeFlexRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.photo img {
+    width: 20vw;
+    object-fit: cover;
+}
+.photo img {
+    width: 20vw;
+    object-fit: cover;
+}
+.chapters {
+    font-family: 'Poor Story', sans-serif ;
+}
+
+/* .heading-wrapper > .middle-heading img {
+    width: 200px;
+    object-fit: cover;
+} */
+.heading-wrapper > .bottom-heading .goto-bar {
+    display: flex;
+    justify-content: space-between;
+}
